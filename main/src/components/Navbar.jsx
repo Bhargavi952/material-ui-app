@@ -10,7 +10,7 @@ import {
 } from "@material-ui/core";
 import { Cancel, Mail, Notifications, Search } from "@material-ui/icons";
 import { useState } from "react";
-import profile from '../Images/profile.png'
+import profile from "../Images/profile1.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   toolbar: {
@@ -96,10 +96,7 @@ const Navbar = () => {
           <Badge badgeContent={2} color="secondary" className={classes.badge}>
             <Notifications />
           </Badge>
-          <Avatar
-            alt="Profile"
-            src={profile}
-          />
+          <Avatar alt="Profile" src={profile} />
         </div>
       </Toolbar>
     </AppBar>
